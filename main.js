@@ -10,7 +10,8 @@ function createWindwos(){
             nodeIntegration:false,
             worldSafeExecuteJavaScript:true,
             contextIsolation:true
-        }
+        },
+        autoHideMenuBar:true
     })
 
     win.loadFile('index.html')
