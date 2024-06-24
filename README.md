@@ -1,15 +1,21 @@
 # Electron React Template
 
+# Download Project
+
+run this command in terminal in the working directry you watn
+````
+git clone https://github.com/8Mostafa0/Electron_React.git
+````
 
 # Befor Start
 for downloading dependencis and make project ready to lunch run this commands : 
 
 ````
+npm create electron-app ProjectName --template=webpack
+npm instal --save-dev @babel/core babel-loader @babel/preset-env @babel/preset-react --d
 npm install --save-dev react react-dom
-npm install --save-dev @babel/core @babel/preset-env @babel/preset-react css-loader style-loader sass-loader sass webpack webpack-cli babel-loader
 npm install --save-dev dotenv-webpack
-npm clean-install
-npm run watch
+npm start
 ````
 
 # Build
