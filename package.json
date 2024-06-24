@@ -1,14 +1,14 @@
 {
-  "name": "template",
-  "productName": "template",
+  "name": "electron_react",
+  "productName": "Electron_React",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "watch": "webpack --config webpack.common.js --watch",
     "make": "electron-forge make",
+    "watch": "webpack --config webpack.common.js --watch",
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
@@ -28,7 +28,6 @@
     "css-loader": "^7.1.2",
     "dotenv-webpack": "^8.1.0",
     "electron": "31.0.2",
-    "electron-reload": "^2.0.0-alpha.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sass": "^1.77.6",
@@ -44,7 +43,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "dotenv-extended": "^2.9.0",
     "electron-squirrel-startup": "^1.0.1"
   }
 }
