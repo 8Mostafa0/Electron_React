@@ -11,3 +11,10 @@ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react css-loa
 npm install --save-dev dotenv-webpack
 npm run watch
 ````
+
+# Build
+
+for build your app just run this command:
+````
+npm run publish
+````
